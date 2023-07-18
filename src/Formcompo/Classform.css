@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(lightblue 20%, pink 90%, white);
+    overflow-x: hidden;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+form{
+    position: relative;
+    left: 600px;
+}
+label{
+    font-size: 18px;
+}
+.go{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    border: 4px solid black;
+    background-color: aqua;
+    padding-left: 10px;
+}
+.go:focus{
+    border: 4px solid blue;
+    background-color: aquamarine;
+}
+.one{
+    position: absolute;
+    top: 10px;
+}
+.two{
+    position: absolute;
+    top: 70px;
+    left: -30px;
+}
+.three{
+    position: absolute;
+    top:130px;
+}
+button{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    border: 3px solid black;
+    position: absolute;
+    top: 190px;
+    left: 40px;
+    background-color: aquamarine;
+}
+.show{
+   /* box-sizing: border-box; */
+   background-color: palevioletred;
+   width: 350px;
+   height: 120px;
+   border: 2px solid black;
+   border-radius: 30px;
+   
+}
+.shows{
+    margin-top: 10px;
+}
+.r{
+    background-color: aquamarine;
+    border: 3px solid  black;
+    width: 700px;
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
