@@ -18,7 +18,12 @@ class Classform extends Component{
             rate: this.state.Rating
         }
         this.state.EmpData.push(newObj);
-        this.setState({EmpData: this.state.EmpData})
+        this.setState({
+            EmpData: this.state.EmpData,
+            Name:'',
+            Dept:'',
+            Rating:''
+        })
     }
     render(){
         return(

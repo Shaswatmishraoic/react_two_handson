@@ -55,11 +55,12 @@ button{
    width: 350px;
    height: 120px;
    border: 2px solid black;
-   border-radius: 30px;
-   
+   border-radius: 10px;
+   padding: 10px;
 }
 .shows{
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .r{
     background-color: aquamarine;
@@ -71,6 +72,6 @@ button{
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
